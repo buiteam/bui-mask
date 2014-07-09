@@ -5,7 +5,8 @@
  */
 
 
-var BUI = require('bui-common'),
+var $ = require('jquery'),
+  BUI = require('bui-common'),
   Mask = BUI.namespace('Mask'),
   UA = BUI.UA,
   CLS_MASK = BUI.prefix + 'ext-mask',

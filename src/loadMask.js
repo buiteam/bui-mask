@@ -4,7 +4,8 @@
  */
 
   
-var Mask = require('./mask');
+var $ = require('jquery'),
+  Mask = require('./mask');
 
  /**
  * 屏蔽指定元素，并显示加载信息
